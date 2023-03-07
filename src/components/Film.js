@@ -3,7 +3,7 @@ import React from 'react';
 const Film = ({name, children}) => {
     return ( 
         <>
-       <p><a href={children}>{name}</a></p>
+       <p><a href={children} target="_blank">{name}</a></p>
         </>
     );
 }; 
