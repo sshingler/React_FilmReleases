@@ -1,8 +1,12 @@
 import React from 'react'; 
+import FilmList from '../components/FilmList';
 
 const FilmBox = () => {
     return(
-        <h1> I'm a FilmBox</h1>
+        <>
+        <h1>Films</h1>
+        <FilmList/>
+        </>
     );
 };
 
