@@ -39,7 +39,7 @@ const FilmBox = () => {
             <h2>Upcoming Film Releases for UK</h2>
             <hr></hr>
             <FilmList films={films}/>
-
+            <hr></hr>
             <div>
                 <a href="https://www.imdb.com/calendar/?region=gb" target="_blank"><button>View more upcoming releases</button></a>
             </div>
