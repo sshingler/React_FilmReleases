@@ -34,8 +34,10 @@ const FilmBox = () => {
     )
     return(
         <>
-        <h1>Films</h1>
+        <h1>Upcoming FIlm Releases for UK</h1>
+        <hr></hr>
         <FilmList films={films}/>
+        
         </>
     );
 };
