@@ -1,8 +1,11 @@
 import React from 'react'; 
 
-const Film = () => {
+const Film = ({title, children}) => {
     return ( 
-        <p>I'm a Film</p>
+        <>
+        <p>{title}</p>
+        <p>{children}</p>
+        </>
     );
 }; 
 
